@@ -61,7 +61,7 @@ func (p *Date) AdToJalali(year int, month int, day int) string {
 		ix = i
 	}
 
-	jm := ix + 2
+	jm := ix + 1
 	jd := j_day_no + 1
 
 	return fmt.Sprintf("[%d] | [%d] | [%d]", jy, jm, jd)
